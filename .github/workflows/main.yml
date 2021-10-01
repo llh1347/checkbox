@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync scripts
+      - name: sync  wenmoux-scripts
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
